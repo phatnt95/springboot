@@ -15,6 +15,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api/contact")
 public class HomeController {
 
